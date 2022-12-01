@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		04B8ECF929389FE200FDAACC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B8ECF829389FE200FDAACC /* main.swift */; };
+		04B8ED002938A93600FDAACC /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B8ECFF2938A93600FDAACC /* CalendarView.swift */; };
+		04B8ED022938BFC400FDAACC /* TableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B8ED012938BFC400FDAACC /* TableDataSource.swift */; };
+		04B8ED042938C18C00FDAACC /* Month.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B8ED032938C18C00FDAACC /* Month.swift */; };
+		04B8ED062938C1A900FDAACC /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B8ED052938C1A900FDAACC /* Day.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		04B8ECF529389FE200FDAACC /* calendar */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = calendar; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B8ECF829389FE200FDAACC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		04B8ECFF2938A93600FDAACC /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		04B8ED012938BFC400FDAACC /* TableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDataSource.swift; sourceTree = "<group>"; };
+		04B8ED032938C18C00FDAACC /* Month.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Month.swift; sourceTree = "<group>"; };
+		04B8ED052938C1A900FDAACC /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				04B8ECF829389FE200FDAACC /* main.swift */,
+				04B8ED032938C18C00FDAACC /* Month.swift */,
+				04B8ED052938C1A900FDAACC /* Day.swift */,
+				04B8ECFF2938A93600FDAACC /* CalendarView.swift */,
+				04B8ED012938BFC400FDAACC /* TableDataSource.swift */,
 			);
 			path = calendar;
 			sourceTree = "<group>";
@@ -120,6 +132,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B8ED042938C18C00FDAACC /* Month.swift in Sources */,
+				04B8ED002938A93600FDAACC /* CalendarView.swift in Sources */,
+				04B8ED022938BFC400FDAACC /* TableDataSource.swift in Sources */,
+				04B8ED062938C1A900FDAACC /* Day.swift in Sources */,
 				04B8ECF929389FE200FDAACC /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
